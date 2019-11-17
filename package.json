@@ -1,0 +1,19 @@
+{
+  "name": "express-force-listen",
+  "version": "1.0.0",
+  "description": "A small service to kill the express port before running the app.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "github:adamgen/express-force-listen",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@adamgen/logger": "^1.0.2",
+    "@adamgen/tsbase": "^1.0.2",
+    "@types/express": "^4.17.2",
+    "express": "^4.17.1"
+  }
+}

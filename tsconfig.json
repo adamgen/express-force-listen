@@ -1,0 +1,12 @@
+{
+    "extends": "./node_modules/@adamgen/tsbase/tsconfig.json",
+    "compilerOptions": {
+        "outDir": ".",
+        "baseUrl": ".",
+        "paths": {
+            "*": [
+                "types/*"
+            ]
+        }
+    }
+}
